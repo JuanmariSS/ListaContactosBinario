@@ -66,7 +66,7 @@ public class ListaContactos implements Serializable {
         }
         ListaP.get(cnt).describeContacto(ListaP.get(cnt));
         
-        System.out.printf("\n\n","Quiere modificar este contacto (true/false)");
+        System.out.printf("\n\n%1s","Quiere modificar este contacto (true/false)");
         boolean mod=sc.nextBoolean();
         if (mod==true) {
           ListaP.get(cnt).modContacto(ListaP.get(cnt));
